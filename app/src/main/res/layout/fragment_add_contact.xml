@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactFragment">
+
+
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Contact" />
+
+        <EditText
+            android:id="@+id/add_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="40dp"
+            android:hint="Enter Name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:inputType="number"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:imeOptions="actionNext"
+            android:id="@+id/add_mobile"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Mobile"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        <EditText
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"
+            android:id="@+id/add_email"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <EditText
+            android:id="@+id/add_address"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Address"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+       <Button
+           android:id="@+id/btnAddContact"
+           android:layout_marginTop="20dp"
+           android:text="Add Contact"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

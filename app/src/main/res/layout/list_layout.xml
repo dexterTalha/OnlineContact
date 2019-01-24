@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/ic_contacts_black_24dp"
+        android:layout_width="70dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_name_list"
+            android:textSize="20sp"
+            android:text="NAME"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_mobile_list"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="Mobile"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_email_list"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="Email"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
